@@ -1,0 +1,35 @@
+.article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.article > div {
+  display: flex;
+  gap: 8px;
+}
+.article > div > span {
+  text-align: start;
+}
+.article-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 10px;
+}
+.article-img > img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+.article-img > div {
+  display: flex;
+  gap: 8px;
+}
+.article-img > div > span {
+  text-align: start;
+}
+.more-details {
+  text-align: start;
+}
+.more-details > span {
+  color: aqua;
+  cursor: pointer;
+}

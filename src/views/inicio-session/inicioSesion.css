@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.fondoInicio {
+  height: 100vh;
+}
+
+.cont-Inicio {
+  color: white;
+}
+.btn {
+  margin-top: 35%;
+}

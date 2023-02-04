@@ -1,0 +1,17 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.articles-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.articles-content > img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
