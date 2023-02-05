@@ -13,7 +13,9 @@ const Weather = () => {
 
   return (
     <>
-      <h4>Climas de Ciudades Principales</h4>
+      <h5>
+        <strong>Climas de Ciudades Principales</strong>
+      </h5>
 
       <div className="content-table table-responsive">
         <table className="table table-hover">
