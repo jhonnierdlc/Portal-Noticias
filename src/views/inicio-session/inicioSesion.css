@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
   background-repeat: no-repeat;
-  
+  background-size: 100%;
 }
 
 .fondoInicio {
   height: 100vh;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/626/668/original/a-digital-representation-of-a-compass-by-the-globe-in-a-blue-background-free-video.jpg");
+
 }
 
 .cont-Inicio {
@@ -14,3 +16,4 @@
 .btn {
   margin-top: 35%;
 }
+

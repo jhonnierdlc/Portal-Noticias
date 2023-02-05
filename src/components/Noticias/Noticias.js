@@ -14,7 +14,6 @@ const Noticias = () => {
 
   return (
     <>
-      
       {articles.length === 0 ? (
         <p>loading...</p>
       ) : (

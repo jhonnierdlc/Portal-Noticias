@@ -1,6 +1,6 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import "./App.css";
-import Clima from "./components/Clima/Clima";
+import Weather from "./components/Weather/weather";
 import Navbar from "./components/Navbar/Navbar";
 import Noticias from "./components/Noticias/Noticias";
 import LoginButton from "./views/inicio-session/InicioSesion";
@@ -13,10 +13,8 @@ function App() {
       {isAuthenticated ? (
         <>
           <Navbar />
-          <Clima />
           <Noticias />
-          
-          
+          <Weather />
         </>
       ) : (
         <LoginButton />

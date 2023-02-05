@@ -7,19 +7,16 @@ const LoginButton = () => {
 
   return (
     <>
-      <div
-        className="fondoInicio"
-        style={{ backgroundImage: `url(../fondonews.jpg)` }}
-      >
+      <div className="fondoInicio">
+
         <div className="cont-Inicio">
           <br></br>
           <h1>Portal de Noticias</h1>
-          <h5>Inicio de sesion para usuarios</h5>
+          <h5>Inicio de sesion para usuarios</h5>          
           <button
-            className="btn btn-primary"
-            onClick={() => loginWithRedirect()}
-          >
-            Login
+            className="btn btn-danger"
+            onClick={() => loginWithRedirect()}>
+            Iniciar Sesion
           </button>
         </div>
       </div>
