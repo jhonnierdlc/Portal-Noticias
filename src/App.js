@@ -13,9 +13,10 @@ function App() {
       {isAuthenticated ? (
         <>
           <Navbar />
-          <Noticias />
-          <hr></hr>
           <Clima />
+          <Noticias />
+          
+          
         </>
       ) : (
         <LoginButton />

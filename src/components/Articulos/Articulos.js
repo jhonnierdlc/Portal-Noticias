@@ -13,11 +13,12 @@ const Articulos = ({ articles }) => {
         <strong>Publicado: </strong>
         <span>{contentInfo.publishedAt}</span>
       </div>
+      <img alt="img" src={contentInfo.urlToImage} />
       <div>
         <strong>Contenido: </strong>
         <span>{contentInfo.content}</span>
       </div>
-      <img alt="img" src={contentInfo.urlToImage} />
+      
       <a href={contentInfo.url} rel="noreferrer" target="_blank">
         Leer más...
       </a>

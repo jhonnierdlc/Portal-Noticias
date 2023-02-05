@@ -2,6 +2,7 @@ import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import "./navbar.css";
 import LogoutButton from "../LogoutBtn/CerrarSesion";
+import logo from "../../img/breaking_news.png"
 
 const Navbar = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
@@ -15,7 +16,7 @@ const Navbar = () => {
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <a className="navbar-brand" href="#">
-            <img src="./news-logo.png" width="70px" alt="Logo"/>
+            <img className="logo_new" src={logo} alt="Logo"/>
           </a>
           <button
             className="navbar-toggler"

@@ -14,7 +14,7 @@ const Noticias = () => {
 
   return (
     <>
-      <h4>Noticias Actuales</h4>
+      
       {articles.length === 0 ? (
         <p>loading...</p>
       ) : (
